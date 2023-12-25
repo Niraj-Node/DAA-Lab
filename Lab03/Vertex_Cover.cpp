@@ -30,7 +30,7 @@ class Solution
             for(int i = 1; i < n+1; i++) 
             {
                 int currentDegree = adj[i].size();
-                cout << currentDegree << " ";
+                //cout << currentDegree << " ";
                 if(currentDegree > maxDegree) 
                 {
                     maxDegree = currentDegree;
